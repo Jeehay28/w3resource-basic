@@ -3,6 +3,26 @@
 ### This is going to be my daily log for JavaScript coding practice.
  
 
+
+📅 27/11/2022
+- leap year test
+```
+function isLeapYear(year) {
+    const check = parseInt(year, 10);
+    let msg = "";
+    if (check % 4 === 0 && check % 100 !== 0) {
+        msg = "Yes, it's a leap year!";
+    } else if (check % 4 === 0 && check % 100 === 0 && check % 400 === 0) {
+        msg = "Yes, it's a leap year!";
+    } else {
+        msg = "No, it's not a leap year."
+    }
+    return msg;
+}
+```
+- JavaScript Array Methods (in progress)
+
+
 📅 26/11/2022
 - basic animation
 
