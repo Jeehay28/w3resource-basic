@@ -1,6 +1,6 @@
 function isLeapYear(year) {
     const check = parseInt(year, 10);
-    console.log(check);
+    // console.log(check);
     let msg = "";
     if (check % 4 === 0 && check % 100 !== 0) {
         msg = "Yes, it's a leap year!";

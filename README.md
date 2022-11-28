@@ -1,8 +1,20 @@
 # JavaScript basic excercises from [w3resource](https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php)
+## This is going to be my daily log for JavaScript coding practice.
 
-### This is going to be my daily log for JavaScript coding practice.
- 
-
+📅 28/11/2022
+- years between 2014 and 2050 that the 1st of January is Sunday 
+```
+const result = document.querySelector("#result");
+for (let i = 2014; i < 2051; i++) {
+    let newYear = new Date(`${i}-1-1`);
+    if (newYear.getDay() === 0) {
+        result.innerHTML +=
+            `<h2>Given year : ${i}</h2>
+             <p style="color:blue;">The 1st of January is Sunday.</p>`
+    }
+}
+```
+<hr>
 
 📅 27/11/2022
 - leap year test
@@ -22,6 +34,7 @@ function isLeapYear(year) {
 ```
 - JavaScript Array Methods (in progress)
 
+<hr>
 
 📅 26/11/2022
 - basic animation
@@ -36,6 +49,7 @@ function Display() {
 }
 ```
 
+<hr>
 
 📅 25/11/2022
 - datetime
