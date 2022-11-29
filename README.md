@@ -1,6 +1,25 @@
 # JavaScript basic excercises from [w3resource](https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php)
 ## This is going to be my daily log for JavaScript coding practice.
 
+
+📅 29/11/2022
+- guess a number
+```
+const result = document.querySelector("#result");
+let msg = "";
+let id = "";
+let luckyNum = Math.ceil(Math.random() * 10);
+let userNum = parseInt(prompt("Enter a number."));
+if (userNum !== NaN) {
+    (luckyNum === userNum ? msg = "Good guess!" : msg = "Not matched")
+}
+(msg === "Good guess!" ? id = "good" : id = "no")
+result.innerHTML =
+    `<h2 id=${id}>${msg}</h2> 
+<p>You entered <span id="user">${userNum}</span> and the lucky number is <span id="lucky">${luckyNum}</span>.</p>`
+```
+<hr />
+
 📅 28/11/2022
 - years between 2014 and 2050 that the 1st of January is Sunday 
 ```
