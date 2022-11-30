@@ -2,6 +2,18 @@
 ## This is going to be my daily log for JavaScript coding practice.
 
 
+📅 30/11/2022
+- calculate the days left until Christmas
+```
+const result = document.querySelector("#result");
+const today = new Date();
+const xmas = new Date(`${today.getFullYear()}-12-25`);
+const days = Math.ceil((xmas - today) / (1000 * 60 * 60 * 24));
+result.innerHTML = `<h2>${days}</h2>
+                    <p>days left until Christmas!</p>`
+```
+<hr>
+
 📅 29/11/2022
 - guess a number
 ```
