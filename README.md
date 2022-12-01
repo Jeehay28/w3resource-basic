@@ -1,6 +1,33 @@
 # JavaScript basic excercises from [w3resource](https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php)
 ## This is going to be my daily log for JavaScript coding practice.
 
+📅 01/12/2022
+- calculator
+```
+const multiply = document.querySelector("#multiply");
+const divide = document.querySelector("#divide");
+const reset = document.querySelector("#reset");
+const result = document.querySelector("#result");
+
+multiply.addEventListener("click", () => {
+    let num1 = document.querySelector("#first").value;
+    let num2 = document.querySelector("#second").value;
+    result.innerHTML = `${num1 * num2}`;
+})
+
+divide.addEventListener("click", () => {
+    let num1 = document.querySelector("#first").value;
+    let num2 = document.querySelector("#second").value;
+    result.innerHTML = `${num1 / num2}`;
+})
+
+reset.addEventListener("click", () => {
+    document.querySelector("#first").value = "";
+    document.querySelector("#second").value = "";
+    result.innerHTML = "";
+})
+```
+<hr>
 
 📅 30/11/2022
 - calculate the days left until Christmas
