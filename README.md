@@ -1,6 +1,20 @@
 # JavaScript basic excercises from [w3resource](https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php)
 ## This is going to be my daily log for JavaScript coding practice.
 
+📅 02/12/2022
+- temperature converter
+
+<img src="images/11-tempeature-converter.jpg" width="300">
+
+💡
+```
+// IIFE(Immediately invoked function expression)
+(() => console.log("Wow this works!"))()
+// Wow this works!
+```
+<hr>
+
+
 📅 01/12/2022
 - calculator
 ```
