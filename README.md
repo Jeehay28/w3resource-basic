@@ -1,6 +1,44 @@
 # JavaScript basic excercises from [w3resource](https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php)
 ## This is going to be my daily log for JavaScript coding practice.
 
+
+📅 03/12/2022
+- how to run a JavaScript code in Node.js
+```
+// This part is needed to run a JavaScript program in Node.js.  
+const readline = require('readline');
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+let input = [];
+
+rl.on('line', function (line) {
+    input = line.split(' ');
+}).on('close', function () {
+    solution(Number(input[0]));
+});
+
+// Write your code below.
+function solution(n) {
+    for (let i = 1; i < n + 1; i++) {
+        console.log('*'.repeat(i));
+    }
+}
+
+solution(3);
+
+// 
+$ node tips.js 
+*
+**
+***
+//
+```
+<hr>
+
+
 📅 02/12/2022
 - temperature converter
 
