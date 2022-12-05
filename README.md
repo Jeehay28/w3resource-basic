@@ -1,6 +1,20 @@
 # JavaScript basic excercises from [w3resource](https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php)
 ## This is going to be my daily log for JavaScript coding practice.
 
+📅 05/12/2022
+- create a variable using a user-defined name
+```
+const btn = document.querySelector("#btn");
+const named = document.querySelector("#named");
+const result = document.querySelector("#result");
+
+btn.addEventListener("click", () => {
+    this[named.value] = 10;
+    result.innerHTML = `<p>${named.value}</p> 
+    <p>${named.value} = ${this[named.value]}</p>`;
+})
+```
+<hr>
 
 📅 03/12/2022
 - how to run a JavaScript code in Node.js
