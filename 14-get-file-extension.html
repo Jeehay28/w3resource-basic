@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get the extension of a filename</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column;
+        }
+
+        #box {
+            margin: 10px auto;
+        }
+
+        ul {
+            list-style: none;
+            font-weight: bold;
+        }
+
+        #result {
+            margin-top: 10px;
+            background-color: #165b33;
+            color: white;
+            height: 60px;
+            padding: 10px 15px;
+        }
+    </style>
+</head>
+<div id="container">
+    <div id="box">
+        <ul>
+            <li>
+                <label for="filename">Enter a file name : </label>
+                <input type="text" name="filename" id="filename" placeholder="abc.txt">
+                <input type="button" value="Click" id="btn">
+            </li>
+        </ul>
+    </div>
+    <div id="result"></div>
+</div>
+
+<body>
+
+    <script src="./js/14.get-file-extension.js"></script>
+</body>
+
+</html>
