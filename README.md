@@ -1,6 +1,27 @@
 # JavaScript basic excercises from [w3resource](https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php)
 ## This is going to be my daily log for JavaScript coding practice.
 
+📅 06/12/2022
+- basic function
+
+<img src="images/15-answer-tree.jpg" width="300">
+
+- get the extension of a filename
+```
+const btn = document.querySelector("#btn");
+const filename = document.querySelector("#filename");
+const result = document.querySelector("#result");
+
+btn.addEventListener("click", () => {
+    console.log(filename.value);
+    result.innerHTML =
+        `<p>The file name is ${filename.value.split(".")[0]}</p>
+         <p>the file extension is ${filename.value.split(".")[1]}</p>
+        `
+})
+```
+<hr>
+
 📅 05/12/2022
 - create a variable using a user-defined name
 ```
