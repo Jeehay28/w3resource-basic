@@ -1,6 +1,13 @@
 # JavaScript basic excercises from [w3resource](https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php)
 ## This is going to be my daily log for JavaScript coding practice.
 
+📅 23/12/2022
+- table pagination
+
+<img src="images/my-first-table.gif" width="300">
+<hr>
+
+
 📅 06/12/2022
 - basic function
 
