@@ -4,14 +4,14 @@
 📅 23/12/2022
 - table pagination
 
-<img src="images/my-first-table.gif" width="300">
+<img src="images/my-first-table.gif" width="6000">
 <hr>
 
 
 📅 06/12/2022
 - basic function
 
-<img src="images/15-answer-tree.jpg" width="300">
+<img src="images/15-answer-tree.jpg" width="6000">
 
 - get the extension of a filename
 ```
